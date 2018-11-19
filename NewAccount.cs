@@ -13,6 +13,9 @@ namespace Project_Mockup
 {
     public partial class NewAccount : Form
     {
+        public string returnUsername { get; set; }
+        public string returnPassword { get; set; }
+
         public NewAccount()
         {
             InitializeComponent();
@@ -21,7 +24,11 @@ namespace Project_Mockup
         private void btnSubmit_Click(object sender, EventArgs e)
         {
             string account = txtNewUsername.Text + "/" + txtNewUserPassword.Text + "/" + txtNewUserEmail.Text;
-            File.AppendAllText(@"accounts.txt", account + Environment.NewLine);
+            File.AppendAllText(@"accounts.txt", Environment.NewLine + account);
+            this.returnUsername = txtNewUsername.Text;
+            this.returnPassword = txtNewUserPassword.Text;
+            this.DialogResult = DialogResult.OK;
+            this.Close();
         }
 
         private void btnCancel_Click(object sender, EventArgs e)

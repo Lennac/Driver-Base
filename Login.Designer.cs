@@ -32,7 +32,7 @@
             this.lblUser = new System.Windows.Forms.Label();
             this.lblPassword = new System.Windows.Forms.Label();
             this.txtPassword = new System.Windows.Forms.TextBox();
-            this.btnOkay = new System.Windows.Forms.Button();
+            this.bntLogin = new System.Windows.Forms.Button();
             this.btnGuest = new System.Windows.Forms.Button();
             this.btnNewAccount = new System.Windows.Forms.Button();
             this.lblNewAccount = new System.Windows.Forms.Label();
@@ -71,14 +71,15 @@
             this.txtPassword.TabIndex = 2;
             this.txtPassword.UseSystemPasswordChar = true;
             // 
-            // btnOkay
+            // bntLogin
             // 
-            this.btnOkay.Location = new System.Drawing.Point(120, 166);
-            this.btnOkay.Name = "btnOkay";
-            this.btnOkay.Size = new System.Drawing.Size(75, 23);
-            this.btnOkay.TabIndex = 4;
-            this.btnOkay.Text = "Login";
-            this.btnOkay.UseVisualStyleBackColor = true;
+            this.bntLogin.Location = new System.Drawing.Point(120, 166);
+            this.bntLogin.Name = "bntLogin";
+            this.bntLogin.Size = new System.Drawing.Size(75, 23);
+            this.bntLogin.TabIndex = 4;
+            this.bntLogin.Text = "Login";
+            this.bntLogin.UseVisualStyleBackColor = true;
+            this.bntLogin.Click += new System.EventHandler(this.bntLogin_Click);
             // 
             // btnGuest
             // 
@@ -116,7 +117,7 @@
             this.Controls.Add(this.lblNewAccount);
             this.Controls.Add(this.btnNewAccount);
             this.Controls.Add(this.btnGuest);
-            this.Controls.Add(this.btnOkay);
+            this.Controls.Add(this.bntLogin);
             this.Controls.Add(this.lblPassword);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.lblUser);
@@ -134,7 +135,7 @@
         private System.Windows.Forms.Label lblUser;
         private System.Windows.Forms.Label lblPassword;
         private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.Button btnOkay;
+        private System.Windows.Forms.Button bntLogin;
         private System.Windows.Forms.Button btnGuest;
         private System.Windows.Forms.Button btnNewAccount;
         private System.Windows.Forms.Label lblNewAccount;

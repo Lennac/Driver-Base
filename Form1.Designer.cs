@@ -62,8 +62,9 @@
             this.btnAccount.Image = ((System.Drawing.Image)(resources.GetObject("btnAccount.Image")));
             this.btnAccount.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnAccount.Name = "btnAccount";
-            this.btnAccount.Size = new System.Drawing.Size(72, 100);
+            this.btnAccount.Size = new System.Drawing.Size(56, 100);
             this.btnAccount.Text = "Account";
+            this.btnAccount.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // btnFavourites
             // 
@@ -71,16 +72,18 @@
             this.btnFavourites.Image = ((System.Drawing.Image)(resources.GetObject("btnFavourites.Image")));
             this.btnFavourites.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnFavourites.Name = "btnFavourites";
-            this.btnFavourites.Size = new System.Drawing.Size(81, 100);
+            this.btnFavourites.Size = new System.Drawing.Size(65, 100);
             this.btnFavourites.Text = "Favourites";
+            this.btnFavourites.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // btnExit
             // 
             this.btnExit.Image = ((System.Drawing.Image)(resources.GetObject("btnExit.Image")));
             this.btnExit.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnExit.Name = "btnExit";
-            this.btnExit.Size = new System.Drawing.Size(45, 100);
+            this.btnExit.Size = new System.Drawing.Size(29, 100);
             this.btnExit.Text = "Exit";
+            this.btnExit.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.btnExit.Click += new System.EventHandler(this.btnExit_Click_1);
             // 
             // toolStripLabel1
@@ -98,8 +101,9 @@
             this.btnSavedSearch.Image = ((System.Drawing.Image)(resources.GetObject("btnSavedSearch.Image")));
             this.btnSavedSearch.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.btnSavedSearch.Name = "btnSavedSearch";
-            this.btnSavedSearch.Size = new System.Drawing.Size(107, 100);
+            this.btnSavedSearch.Size = new System.Drawing.Size(91, 100);
             this.btnSavedSearch.Text = "Saved Searches";
+            this.btnSavedSearch.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             // 
             // btnSearchForCar
             // 
