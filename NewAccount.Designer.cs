@@ -142,7 +142,7 @@
             this.Controls.Add(this.lblUsername);
             this.Controls.Add(this.txtNewUsername);
             this.Name = "NewAccount";
-            this.Text = "NewAccount";
+            this.Text = "New Account";
             this.ResumeLayout(false);
             this.PerformLayout();
 

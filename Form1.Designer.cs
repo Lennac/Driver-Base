@@ -36,7 +36,7 @@
             this.toolStripLabel1 = new System.Windows.Forms.ToolStripLabel();
             this.btnSavedSearch = new System.Windows.Forms.ToolStripButton();
             this.btnSearchForCar = new System.Windows.Forms.Button();
-            this.brnSellCar = new System.Windows.Forms.Button();
+            this.btnSellCar = new System.Windows.Forms.Button();
             this.lstCarObjects = new System.Windows.Forms.ListView();
             this.toolStrip1.SuspendLayout();
             this.SuspendLayout();
@@ -114,14 +114,15 @@
             this.btnSearchForCar.Text = "Search for a Car";
             this.btnSearchForCar.UseVisualStyleBackColor = true;
             // 
-            // brnSellCar
+            // btnSellCar
             // 
-            this.brnSellCar.Location = new System.Drawing.Point(574, 126);
-            this.brnSellCar.Name = "brnSellCar";
-            this.brnSellCar.Size = new System.Drawing.Size(120, 40);
-            this.brnSellCar.TabIndex = 2;
-            this.brnSellCar.Text = "List a Car for Sale";
-            this.brnSellCar.UseVisualStyleBackColor = true;
+            this.btnSellCar.Location = new System.Drawing.Point(574, 126);
+            this.btnSellCar.Name = "btnSellCar";
+            this.btnSellCar.Size = new System.Drawing.Size(120, 40);
+            this.btnSellCar.TabIndex = 2;
+            this.btnSellCar.Text = "List a Car for Sale";
+            this.btnSellCar.UseVisualStyleBackColor = true;
+            this.btnSellCar.Click += new System.EventHandler(this.btnSellCar_Click);
             // 
             // lstCarObjects
             // 
@@ -138,7 +139,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(837, 700);
             this.Controls.Add(this.lstCarObjects);
-            this.Controls.Add(this.brnSellCar);
+            this.Controls.Add(this.btnSellCar);
             this.Controls.Add(this.btnSearchForCar);
             this.Controls.Add(this.toolStrip1);
             this.Name = "Form1";
@@ -158,7 +159,7 @@
         private System.Windows.Forms.ToolStripButton btnFavourites;
         private System.Windows.Forms.ToolStripButton btnExit;
         private System.Windows.Forms.Button btnSearchForCar;
-        private System.Windows.Forms.Button brnSellCar;
+        private System.Windows.Forms.Button btnSellCar;
         private System.Windows.Forms.ListView lstCarObjects;
         private System.Windows.Forms.ToolStripButton btnAccount;
         private System.Windows.Forms.ToolStripLabel toolStripLabel1;

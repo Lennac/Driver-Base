@@ -14,6 +14,7 @@ namespace Project_Mockup
 {
     public partial class Form1 : Form
     {
+        user activeUser = new user();
         List<user> userList = new List<user>();
         List<carListing> carList = new List<carListing>();
 
@@ -80,7 +81,26 @@ namespace Project_Mockup
 
         private void populateApplication(string a)
         {
+            activeUser.username = a;
             btnAccount.Text = a;
+            lstCarObjects.Visible = false;
+
+        }
+
+        private void btnSellCar_Click(object sender, EventArgs e)
+        {
+            using (var form = new addListing())
+            {
+                var result = form.ShowDialog();
+                if (result == DialogResult.OK)
+                {
+                }
+                else
+                {
+                    this.Dispose();
+                    this.Close();
+                }
+            }
         }
     }
 }

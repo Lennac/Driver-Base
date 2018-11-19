@@ -40,7 +40,7 @@
             // 
             // txtUser
             // 
-            this.txtUser.Location = new System.Drawing.Point(171, 76);
+            this.txtUser.Location = new System.Drawing.Point(156, 71);
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(251, 20);
             this.txtUser.TabIndex = 0;
@@ -48,7 +48,7 @@
             // lblUser
             // 
             this.lblUser.AutoSize = true;
-            this.lblUser.Location = new System.Drawing.Point(105, 79);
+            this.lblUser.Location = new System.Drawing.Point(90, 74);
             this.lblUser.Name = "lblUser";
             this.lblUser.Size = new System.Drawing.Size(60, 13);
             this.lblUser.TabIndex = 1;
@@ -57,7 +57,7 @@
             // lblPassword
             // 
             this.lblPassword.AutoSize = true;
-            this.lblPassword.Location = new System.Drawing.Point(105, 105);
+            this.lblPassword.Location = new System.Drawing.Point(90, 100);
             this.lblPassword.Name = "lblPassword";
             this.lblPassword.Size = new System.Drawing.Size(53, 13);
             this.lblPassword.TabIndex = 3;
@@ -65,7 +65,7 @@
             // 
             // txtPassword
             // 
-            this.txtPassword.Location = new System.Drawing.Point(171, 102);
+            this.txtPassword.Location = new System.Drawing.Point(156, 97);
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(251, 20);
             this.txtPassword.TabIndex = 2;
@@ -73,7 +73,7 @@
             // 
             // bntLogin
             // 
-            this.bntLogin.Location = new System.Drawing.Point(120, 166);
+            this.bntLogin.Location = new System.Drawing.Point(105, 161);
             this.bntLogin.Name = "bntLogin";
             this.bntLogin.Size = new System.Drawing.Size(75, 23);
             this.bntLogin.TabIndex = 4;
@@ -83,7 +83,7 @@
             // 
             // btnGuest
             // 
-            this.btnGuest.Location = new System.Drawing.Point(339, 166);
+            this.btnGuest.Location = new System.Drawing.Point(324, 161);
             this.btnGuest.Name = "btnGuest";
             this.btnGuest.Size = new System.Drawing.Size(104, 23);
             this.btnGuest.TabIndex = 5;
@@ -92,7 +92,7 @@
             // 
             // btnNewAccount
             // 
-            this.btnNewAccount.Location = new System.Drawing.Point(140, 230);
+            this.btnNewAccount.Location = new System.Drawing.Point(125, 225);
             this.btnNewAccount.Name = "btnNewAccount";
             this.btnNewAccount.Size = new System.Drawing.Size(255, 23);
             this.btnNewAccount.TabIndex = 6;
@@ -103,7 +103,7 @@
             // lblNewAccount
             // 
             this.lblNewAccount.AutoSize = true;
-            this.lblNewAccount.Location = new System.Drawing.Point(180, 214);
+            this.lblNewAccount.Location = new System.Drawing.Point(165, 209);
             this.lblNewAccount.Name = "lblNewAccount";
             this.lblNewAccount.Size = new System.Drawing.Size(180, 13);
             this.lblNewAccount.TabIndex = 7;

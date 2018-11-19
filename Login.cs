@@ -41,7 +41,7 @@ namespace Project_Mockup
                     }
                     else
                     {
-                        
+                        // if wrong?
                     }
                 }
                 else
@@ -61,7 +61,7 @@ namespace Project_Mockup
             }
             else
             {
-                // Fuck you, wrong.
+                // if wrong?
             }
         }
 
