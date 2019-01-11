@@ -39,15 +39,9 @@ namespace Project_Mockup
                         this.DialogResult = DialogResult.OK;
                         this.Close();
                     }
-                    else
-                    {
-                        // if wrong?
-                    }
+                    
                 }
-                else
-                {
-                    this.Close();
-                }
+                
             }
         }
 
@@ -61,7 +55,9 @@ namespace Project_Mockup
             }
             else
             {
-                // if wrong?
+                MessageBox.Show("This account does not exist in our database, please check your username/password, create an account or log in as a guest.", "Invalid Login");
+                txtPassword.Clear();
+                txtUser.Clear();
             }
         }
 
@@ -82,6 +78,23 @@ namespace Project_Mockup
                 }
             }
             return false;
+        }
+
+        private void btnGuest_Click(object sender, EventArgs e)
+        {
+            userLogin = "Guest";
+            this.DialogResult = DialogResult.OK;
+            this.Close();
+        }
+
+        private void txtUser_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
